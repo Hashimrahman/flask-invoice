@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #000;
+}
+
+h1 {
+  color: #8a2be2  ;
+  margin-bottom: 20px;
+}
+
+form,
+.invoice-details {
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #a3a3a3;
+  border: 1px solid #8a2be2 ;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #8a2be2 ;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.invoice-details {
+  margin-top: 30px;
+  border: 1px solid #333333 ;
+  padding: 20px;
+  background-color: #9e9e9e;
+}
+
+.invoice-details p {
+  margin: 5px 0;
+}
+
+.invoice-details p:first-child {
+  font-weight: bold;
+}
+
+.invoice-details .detail-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.invoice-details .total-amount {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.invoice-details hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px dashed #ccc;
+}
+
+.invoice-details .invoice-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.invoice-details .invoice-footer p {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #555;
+}
